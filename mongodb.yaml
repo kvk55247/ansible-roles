@@ -1,4 +1,4 @@
-- name: configure mongodb component
+- name: cofigure mongodb component
   become: yes
   hosts: mongodb
   roles:
