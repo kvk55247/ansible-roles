@@ -9,8 +9,7 @@
     name: nodejs
     state: present
 
-
-
 - name: install dependecies
   community.general.npm:
     path: /app
+
