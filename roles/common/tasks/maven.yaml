@@ -15,12 +15,12 @@
   - cryptography 
 
 
-  - name: install maven dependecies
-    ansible.builtin.command: mvn clean package
-    args:
-      chdir: /app
+- name: install maven dependecies
+  ansible.builtin.command: mvn clean package
+  args:
+    chdir: /app
 
-  - name: rename jar file
-    ansible.builtin.command: "mv target/{{ component }}-1.0.jar {{ component }}.jar"
-    args:
-      chdir: /app
+- name: rename jar file
+  ansible.builtin.command: "mv target/{{ component }}-1.0.jar {{ component }}.jar"
+  args:
+    chdir: /app
