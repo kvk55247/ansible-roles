@@ -1,3 +1,5 @@
 CATALOGUE_HOST: catalogue.daws84s.info
 USER_HOST: user.daws84s.info
 CART_HOST: cart.daws84s.info
+SHIPPING_host: shipping.daws84s.info
+PAYMENT_HOST: payment.daws84s.info
